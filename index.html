@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUJANG VIRTUAL RUN 10K - Budayarun Official</title>
+    
+    <!-- Meta SEO & Social Sharing -->
+    <meta name="description" content="Segera Dibuka! Kujang Virtual Run 10K by Budayarun. Taklukkan 10K dari mana saja, raih medali eksklusif Twin Kujang & Gedung Sate serta Jersey Finisher resmi.">
+    <meta property="og:title" content="SEGERA DIBUKA! KUJANG VIRTUAL RUN 10K by Budayarun">
+    <meta property="og:description" content="Siapkan dirimu & raih medali 3D Twin Kujang & Gedung Sate serta Official Jersey eksklusif!">
+    <meta property="og:image" content="assets/images/medali_kujang_poster.jpg">
+
+    <!-- Meta Pixel Code (Event ViewContent Only) -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1128308963446813');
+    fbq('track', 'ViewContent');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1128308963446813&ev=ViewContent&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;0,900;1,800;1,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cosmicNavy: '#070914',
+                        deepNavy: '#0C1024',
+                        cardNavy: '#131836',
+                        royalBlue: '#1B23D8',
+                        electricBlue: '#2962FF',
+                        neonCyan: '#00E5FF',
+                        voltLime: '#D9FF00',
+                        neonPink: '#FF1E8A',
+                        kujangGold: '#F5B014',
+                        brightGold: '#FFE169',
+                        chromeSilver: '#E2E8F0',
+                        mutedSlate: '#94A3B8'
+                    },
+                    fontFamily: {
+                        heading: ['Montserrat', 'sans-serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['"Space Grotesk"', 'sans-serif']
+                    },
+                    boxShadow: {
+                        'neon-blue': '0 0 30px -5px rgba(41, 98, 255, 0.5)',
+                        'neon-pink': '0 0 30px -5px rgba(255, 30, 138, 0.5)',
+                        'neon-lime': '0 0 30px -5px rgba(217, 255, 0, 0.4)',
+                        'gold-glow': '0 0 35px -5px rgba(245, 176, 20, 0.4)',
+                        'card-depth': '0 20px 40px -15px rgba(0, 0, 0, 0.85)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.3/dist/cdn.min.js"></script>
+
+    <style>
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #070914; }
+        ::-webkit-scrollbar-thumb { background: #1B23D8; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #00E5FF; }
+
+        /* Speedline / Cyber athletics background */
+        .bg-cosmic-energy {
+            background-color: #070914;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(27, 35, 216, 0.28) 0px, transparent 50%),
+                radial-gradient(at 100% 20%, rgba(255, 30, 138, 0.22) 0px, transparent 45%),
+                radial-gradient(at 50% 100%, rgba(0, 229, 255, 0.18) 0px, transparent 55%),
+                linear-gradient(180deg, rgba(7, 9, 20, 0.7) 0%, #070914 100%);
+        }
+
+        .gold-chrome-text {
+            background: linear-gradient(180deg, #FFFFFF 0%, #FFF4CF 20%, #F5B014 65%, #C27E00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .neon-glow-text {
+            text-shadow: 0 0 20px rgba(0, 229, 255, 0.7), 0 0 40px rgba(41, 98, 255, 0.4);
+        }
+
+        /* Speedline Ray overlay */
+        .speedlines {
+            background-image: repeating-linear-gradient(
+                -45deg,
+                transparent,
+                transparent 40px,
+                rgba(0, 229, 255, 0.03) 40px,
+                rgba(0, 229, 255, 0.03) 80px
+            );
+        }
+    </style>
+</head>
+
+<body class="bg-cosmicNavy text-slate-100 font-sans antialiased selection:bg-neonPink selection:text-white"
+      x-data="landingApp()">
+
+    <!-- ==================== 1. TOP ANNOUNCEMENT TICKER ==================== -->
+    <div class="bg-gradient-to-r from-neonPink via-royalBlue to-neonCyan text-white py-2 px-4 text-center text-xs md:text-sm font-bold tracking-wider uppercase flex items-center justify-center gap-2 shadow-lg">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-voltLime animate-ping"></span>
+        <span>JADWAL RESMI: PENDAFTARAN DIBUKA 17 NOVEMBER 2026 &bull; EARLY BIRD 10 HARI (17 - 26 NOV 2026)</span>
+        <a href="#timeline" class="bg-black/30 hover:bg-black/50 text-voltLime px-2.5 py-0.5 rounded-full ml-1 border border-voltLime/40 text-xs">Lihat Timeline &rarr;</a>
+    </div>
+
+    <!-- ==================== 2. HEADER NAVBAR ==================== -->
+    <header class="sticky top-0 z-50 bg-cosmicNavy/90 backdrop-blur-lg border-b border-white/10 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Brand Logo (Official Budayarun) -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="relative">
+                    <span class="font-heading italic font-black text-2xl sm:text-3xl tracking-tighter text-white uppercase drop-shadow-[0_2px_10px_rgba(41,98,255,0.8)]">
+                        BUDAYARU<span class="text-neonCyan">N</span>
+                    </span>
+                    <span class="block text-[9px] font-bold tracking-[0.3em] text-voltLime uppercase font-display -mt-1">
+                        KUJANG 10K VIRTUAL
+                    </span>
+                </div>
+            </a>
+
+            <!-- Nav Links (Desktop) -->
+            <nav class="hidden lg:flex items-center gap-6 text-sm font-bold uppercase tracking-wider text-slate-300">
+                <a href="#rewards" class="hover:text-neonCyan transition-colors">Medali & Jersey</a>
+                <a href="#kategori" class="hover:text-neonCyan transition-colors">Kategori 10K</a>
+                <a href="#timeline" class="hover:text-neonCyan transition-colors text-voltLime">Timeline Event</a>
+                <a href="#paket" class="hover:text-neonCyan transition-colors">Paket Pendaftaran</a>
+                <a href="#faq" class="hover:text-neonCyan transition-colors">FAQ</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <div class="flex items-center gap-3">
+                <a :href="registrationUrl" target="_blank"
+                   class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-neonCyan via-royalBlue to-neonPink text-white px-6 py-2.5 rounded-full font-heading font-black italic tracking-wider text-xs sm:text-sm shadow-neon-blue hover:shadow-neon-pink hover:scale-105 active:scale-95 transition-all duration-200">
+                    <span>DAFTAR SEKARANG</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+
+                <button @click="mobileMenuOpen = !mobileMenuOpen" class="lg:hidden text-white p-2">
+                    <svg x-show="!mobileMenuOpen" class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16m-7 6h7"/></svg>
+                    <svg x-show="mobileMenuOpen" x-cloak class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div x-show="mobileMenuOpen" x-cloak @click.away="mobileMenuOpen = false"
+             class="lg:hidden bg-deepNavy border-b border-white/10 px-6 py-5 space-y-4">
+            <a @click="mobileMenuOpen = false" href="#rewards" class="block text-white font-bold tracking-wide hover:text-neonCyan">MEDALI & DUA PILIHAN JERSEY</a>
+            <a @click="mobileMenuOpen = false" href="#kategori" class="block text-white font-bold tracking-wide hover:text-neonCyan">KATEGORI (SINGLE & MULTIPLE)</a>
+            <a @click="mobileMenuOpen = false" href="#timeline" class="block text-voltLime font-bold tracking-wide hover:text-neonCyan">TIMELINE RESMI EVENT</a>
+            <a @click="mobileMenuOpen = false" href="#paket" class="block text-white font-bold tracking-wide hover:text-neonCyan">PAKET & BIAYA TIKET</a>
+            <a @click="mobileMenuOpen = false" href="#faq" class="block text-white font-bold tracking-wide hover:text-neonCyan">TANYA JAWAB (FAQ)</a>
+            <a :href="registrationUrl" target="_blank"
+               class="block text-center bg-gradient-to-r from-neonCyan via-royalBlue to-neonPink text-white font-black italic py-3 rounded-xl mt-3 tracking-wider">
+                DAFTAR SEKARANG &rarr;
+            </a>
+        </div>
+    </header>
+
+    <main class="bg-cosmic-energy speedlines overflow-hidden">
+
+        <!-- ==================== 3. HERO BANNER (MATCHING POSTER AESTHETICS) ==================== -->
+        <section class="relative pt-10 pb-20 md:pt-16 md:pb-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                
+                <!-- Left Column: Copywriting & Urgency -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    
+                    <!-- Announcement Badge matching the poster -->
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-deepNavy/90 border border-neonPink/60 text-xs sm:text-sm font-black italic tracking-widest text-neonPink uppercase shadow-neon-pink">
+                        <span class="w-2 h-2 rounded-full bg-neonPink animate-ping"></span>
+                        <span>SEGERA DIBUKA!</span>
+                    </div>
+
+                    <!-- Main Dynamic Headline -->
+                    <h1 class="font-heading italic font-black text-4xl sm:text-6xl xl:text-7xl tracking-tighter text-white uppercase leading-[0.95]">
+                        KUJANG <br>
+                        <span class="gold-chrome-text drop-shadow-[0_4px_25px_rgba(245,176,20,0.6)]">VIRTUAL RUN</span><br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-neonCyan to-royalBlue">10K</span>
+                    </h1>
+
+                    <!-- Action Punchline from Poster -->
+                    <p class="font-heading italic font-extrabold text-lg sm:text-2xl text-voltLime uppercase tracking-wide">
+                        SIAPKAN DIRIMU & RAIH MEDALI EKSKLUSIF INI!
+                    </p>
+
+                    <p class="text-sm sm:text-base text-slate-300 max-w-xl mx-auto lg:mx-0 leading-relaxed font-normal">
+                        Lari dari mana saja, kapan saja. Taklukkan 10 kilometer dalam satu kali lari atau cicil bertahap. Dapatkan medali mahakarya <strong class="text-white">Twin Kujang & Gedung Sate</strong> berbahan solid die-cast dan pilihan <strong class="text-white">Official Jersey</strong> bermotif pop-art budaya.
+                    </p>
+
+                    <!-- COUNTDOWN TIMER BOX -->
+                    <div class="bg-cardNavy/80 backdrop-blur-md border border-royalBlue/50 rounded-2xl p-5 sm:p-6 max-w-xl mx-auto lg:mx-0 shadow-neon-blue">
+                        <div class="flex items-center justify-between mb-3 text-xs sm:text-sm">
+                            <span class="font-bold uppercase tracking-wider text-slate-300 flex items-center gap-2">
+                                <svg class="w-4 h-4 text-neonPink animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                                EARLY BIRD BERAKHIR PADA 26 NOV 2026:
+                            </span>
+                            <span class="text-xs font-black text-cosmicNavy bg-voltLime px-2.5 py-0.5 rounded-full uppercase">10 HARI PERTAMA</span>
+                        </div>
+
+                        <div class="grid grid-cols-4 gap-2 sm:gap-3 text-center">
+                            <div class="bg-cosmicNavy/90 rounded-xl p-2.5 sm:p-3 border border-white/10">
+                                <span class="font-heading font-black text-2xl sm:text-4xl text-neonCyan block" x-text="days">08</span>
+                                <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Hari</span>
+                            </div>
+                            <div class="bg-cosmicNavy/90 rounded-xl p-2.5 sm:p-3 border border-white/10">
+                                <span class="font-heading font-black text-2xl sm:text-4xl text-neonCyan block" x-text="hours">14</span>
+                                <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Jam</span>
+                            </div>
+                            <div class="bg-cosmicNavy/90 rounded-xl p-2.5 sm:p-3 border border-white/10">
+                                <span class="font-heading font-black text-2xl sm:text-4xl text-neonCyan block" x-text="minutes">32</span>
+                                <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Menit</span>
+                            </div>
+                            <div class="bg-cosmicNavy/90 rounded-xl p-2.5 sm:p-3 border border-white/10">
+                                <span class="font-heading font-black text-2xl sm:text-4xl text-neonPink block" x-text="seconds">10</span>
+                                <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Detik</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HERO CTA BUTTONS -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a :href="registrationUrl" target="_blank"
+                           class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-neonPink via-royalBlue to-neonCyan text-white px-8 py-4 rounded-xl font-heading font-black italic text-base sm:text-lg tracking-wider shadow-neon-pink hover:scale-105 active:scale-95 transition-all duration-200">
+                            <span>DAFTAR SEKARANG</span>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                        </a>
+                        <a href="#rewards"
+                           class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-deepNavy hover:bg-cardNavy border border-neonCyan/40 hover:border-neonCyan text-white px-7 py-4 rounded-xl font-heading font-bold italic text-base sm:text-lg tracking-wider transition-all duration-200">
+                            <span>LIHAT MEDALI & JERSEY</span>
+                        </a>
+                    </div>
+
+                    <!-- Social Proof / Organizer Stamp -->
+                    <div class="pt-3 flex items-center justify-center lg:justify-start gap-3 text-xs text-slate-400">
+                        <span class="font-heading italic font-bold text-white text-base">BUDAYARUN OFFICIAL EVENT</span>
+                        <span>&bull;</span>
+                        <span class="text-voltLime font-semibold">100% Medali Fisik Terkirim ke Seluruh Indonesia</span>
+                    </div>
+
+                </div>
+
+                <!-- Right Column: REAL OFFICIAL POSTER / MEDAL CARD -->
+                <div class="lg:col-span-5 relative flex items-center justify-center">
+                    
+                    <!-- Atmospheric Glows -->
+                    <div class="absolute w-80 h-80 rounded-full bg-royalBlue/40 blur-3xl -z-10 animate-pulse"></div>
+                    <div class="absolute w-60 h-60 rounded-full bg-neonPink/30 blur-2xl -z-10 right-0"></div>
+
+                    <!-- Framed Poster Visual -->
+                    <div class="relative w-full max-w-sm sm:max-w-md rounded-3xl overflow-hidden border-2 border-neonCyan/40 shadow-card-depth group hover:border-voltLime transition-all duration-500">
+                        
+                        <!-- Top Tag -->
+                        <div class="absolute top-4 left-4 z-20 bg-black/80 backdrop-blur-md px-3 py-1 rounded-full border border-voltLime/50 text-[11px] font-black italic text-voltLime uppercase">
+                            OFFICIAL MEDAL 2027
+                        </div>
+
+                        <!-- Real Poster Image with Subtle Zoom Hover -->
+                        <div class="relative overflow-hidden bg-cosmicNavy">
+                            <img src="assets/images/medali_kujang_poster.jpg" 
+                                 alt="Medali Resmi Kujang Virtual Run 10K"
+                                 class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700">
+                        </div>
+
+                        <!-- Bottom Spec Bar -->
+                        <div class="bg-cardNavy/95 backdrop-blur-md p-4 border-t border-white/10 flex items-center justify-between text-xs">
+                            <div>
+                                <span class="text-[10px] text-slate-400 block uppercase font-bold">Model Medali</span>
+                                <strong class="text-white font-heading font-bold">Twin Kujang & Gedung Sate</strong>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-[10px] text-slate-400 block uppercase font-bold">Material</span>
+                                <strong class="text-voltLime font-heading font-bold">Dual-Tone Gold & Silver</strong>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== 4. SHOWCASE SECTION (MEDAL + 2 JERSEYS) ==================== -->
+        <section id="rewards" class="py-20 bg-deepNavy/60 border-t border-white/10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-voltLime uppercase tracking-widest font-display text-xs font-bold">OFFICIAL RACE PACK & FINISHER REWARDS</span>
+                    <h2 class="font-heading italic font-black text-3xl sm:text-5xl text-white uppercase mt-2">
+                        MEDALI PUSAKA & <span class="text-transparent bg-clip-text bg-gradient-to-r from-neonCyan via-royalBlue to-neonPink">DUA PILIHAN JERSEY</span>
+                    </h2>
+                    <p class="text-slate-300 mt-3 text-sm sm:text-base">
+                        Inilah koleksi mahakarya eksklusif Kujang Virtual Run 10K. Semua peserta berhak mendapatkan medali fisik berbobot padat dan bebas memilih desain jersey kebanggaanmu.
+                    </p>
+                </div>
+
+                <div class="space-y-12">
+                    
+                    <!-- SHOWCASE 1: MEDALI 3D TWIN KUJANG & GEDUNG SATE -->
+                    <div class="bg-cardNavy rounded-3xl border border-brightGold/40 p-6 sm:p-10 shadow-card-depth relative overflow-hidden group hover:border-brightGold transition-all">
+                        <div class="absolute -top-24 -right-24 w-80 h-80 rounded-full bg-brightGold/10 blur-3xl pointer-events-none"></div>
+                        
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                            <!-- Visual Medali -->
+                            <div class="lg:col-span-6 bg-cosmicNavy/90 rounded-2xl p-4 sm:p-6 border border-white/10 flex items-center justify-center">
+                                <img src="assets/images/medali_kujang_poster.jpg" 
+                                     alt="Detail Medali Kujang Virtual Run 10K" 
+                                     class="max-h-[460px] w-auto object-contain rounded-xl shadow-2xl group-hover:scale-102 transition-transform duration-500">
+                            </div>
+
+                            <!-- Detail Medali -->
+                            <div class="lg:col-span-6 space-y-5">
+                                <div class="inline-block px-3 py-1 rounded-full bg-brightGold/20 text-brightGold text-xs font-black italic border border-brightGold/50 uppercase">
+                                    THE CROWN JEWEL &bull; FINISHER MEDAL
+                                </div>
+                                <h3 class="font-heading italic font-black text-3xl sm:text-4xl text-white uppercase">
+                                    MEDALI 3D DIE-CAST <br><span class="gold-chrome-text">TWIN KUJANG & GEDUNG SATE</span>
+                                </h3>
+                                <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                                    Mahakarya medali dengan dua bilah Kujang bersayap kembar yang melambangkan kejayaan ksatria Pasundan, dipadukan dengan relief ikonik kebanggaan Jawa Barat: <strong class="text-white">Gedung Sate Bandung</strong>, serta pita lanyard berornamen pop-art warna-warni yang mencolok dan prestisius.
+                                </p>
+                                
+                                <div class="grid grid-cols-2 gap-3 pt-2 text-xs">
+                                    <div class="bg-cosmicNavy p-3.5 rounded-xl border border-white/10">
+                                        <span class="text-slate-400 block text-[10px] uppercase font-bold">Material</span>
+                                        <strong class="text-white text-sm">Solid Zinc Alloy 3D</strong>
+                                    </div>
+                                    <div class="bg-cosmicNavy p-3.5 rounded-xl border border-white/10">
+                                        <span class="text-slate-400 block text-[10px] uppercase font-bold">Finishing</span>
+                                        <strong class="text-brightGold text-sm">Dual Gold & Silver</strong>
+                                    </div>
+                                    <div class="bg-cosmicNavy p-3.5 rounded-xl border border-white/10">
+                                        <span class="text-slate-400 block text-[10px] uppercase font-bold">Ikon Budaya</span>
+                                        <strong class="text-neonCyan text-sm">Relief Gedung Sate</strong>
+                                    </div>
+                                    <div class="bg-cosmicNavy p-3.5 rounded-xl border border-white/10">
+                                        <span class="text-slate-400 block text-[10px] uppercase font-bold">Lanyard Ribbon</span>
+                                        <strong class="text-neonPink text-sm">Woven Full-Color Satin</strong>
+                                    </div>
+                                </div>
+
+                                <div class="pt-2">
+                                    <a href="#paket" class="inline-flex items-center gap-2 text-xs font-bold text-brightGold hover:text-white uppercase tracking-wider">
+                                        <span>Amankan Medali ini di Paket Pendaftaran</span>
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SHOWCASE 2: JERSEY ROYAL BLUE POP-ART (REVERSED ON DESKTOP) -->
+                    <div class="bg-cardNavy rounded-3xl border border-royalBlue/50 p-6 sm:p-10 shadow-card-depth relative overflow-hidden group hover:border-neonCyan transition-all">
+                        <div class="absolute -top-24 -left-24 w-80 h-80 rounded-full bg-royalBlue/20 blur-3xl pointer-events-none"></div>
+
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                            
+                            <!-- Detail Jersey (Order 2 on mobile, Order 1 on lg) -->
+                            <div class="lg:col-span-6 space-y-5 order-2 lg:order-1">
+                                <div class="inline-block px-3 py-1 rounded-full bg-royalBlue/30 text-neonCyan text-xs font-black italic border border-royalBlue uppercase">
+                                    PILIHAN JERSEY 1 &bull; EDISI BUDAYA POP-ART
+                                </div>
+                                <h3 class="font-heading italic font-black text-3xl sm:text-4xl text-white uppercase">
+                                    JERSEY ROYAL BLUE <br><span class="text-neonCyan">KSATRIA PASUNDAN</span>
+                                </h3>
+                                <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                                    Jersey dengan warna dasar biru elektrik yang dipadukan motif pop-art etnik modern: siluet bilah Kujang, pelari tradisional ksatria Sunda, ornamen flora Pasundan, dan aksen warna neon kontras tinggi (Volt Lime & Magenta).
+                                </p>
+                                
+                                <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300 border-t border-white/10 pt-4">
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-2 h-2 rounded-full bg-neonCyan"></span>
+                                        <span>Material: Aero-Vent Dryfit Microfiber (Ringan, Adem & Anti-Chafing)</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-2 h-2 rounded-full bg-neonCyan"></span>
+                                        <span>Logo Resmi Budayarun di dada kiri dan punggung atas</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-2 h-2 rounded-full bg-neonCyan"></span>
+                                        <span>Teknik Cetak: Sublimasi Full-Color High Definition (Tidak luntur)</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-2 h-2 rounded-full bg-neonCyan"></span>
+                                        <span>Ukuran Unisex: XS, S, M, L, XL, XXL, hingga 3XL</span>
+                                    </li>
+                                </ul>
+
+                                <div class="pt-2 flex items-center gap-4">
+                                    <button @click="sizeChartModalOpen = true" class="text-voltLime hover:text-white underline text-xs font-bold flex items-center gap-1.5">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+                                        Buka Panduan Ukuran (Size Chart)
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Visual Jersey (Order 1 on mobile, Order 2 on lg) -->
+                            <div class="lg:col-span-6 bg-cosmicNavy/90 rounded-2xl p-4 sm:p-6 border border-white/10 flex items-center justify-center order-1 lg:order-2">
+                                <img src="assets/images/jersey_royal_blue.png" 
+                                     alt="Jersey Edisi Royal Blue Pop Art Kujang Virtual Run" 
+                                     class="max-h-[440px] w-auto object-contain group-hover:scale-105 transition-transform duration-500">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- SHOWCASE 3: JERSEY VOLT LIME FINISHER -->
+                    <div class="bg-cardNavy rounded-3xl border border-voltLime/40 p-6 sm:p-10 shadow-card-depth relative overflow-hidden group hover:border-voltLime transition-all">
+                        <div class="absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-voltLime/15 blur-3xl pointer-events-none"></div>
+
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                            
+                            <!-- Visual Jersey -->
+                            <div class="lg:col-span-6 bg-cosmicNavy/90 rounded-2xl p-4 sm:p-6 border border-white/10 flex items-center justify-center">
+                                <img src="assets/images/jersey_volt_finisher.jpg" 
+                                     alt="Finisher Jersey Volt Lime Kujang 10K" 
+                                     class="max-h-[440px] w-auto object-contain group-hover:scale-105 transition-transform duration-500">
+                            </div>
+
+                            <!-- Detail Jersey -->
+                            <div class="lg:col-span-6 space-y-5">
+                                <div class="inline-block px-3 py-1 rounded-full bg-voltLime/20 text-voltLime text-xs font-black italic border border-voltLime/50 uppercase">
+                                    PILIHAN JERSEY 2 &bull; EDISI FINISHER RESMI
+                                </div>
+                                <h3 class="font-heading italic font-black text-3xl sm:text-4xl text-white uppercase">
+                                    FINISHER JERSEY <br><span class="text-voltLime">VOLT LIME TO EMERALD</span>
+                                </h3>
+                                <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                                    Didesain khusus sebagai selebrasi penuntas 10K. Memadukan warna energik gradasi Volt Lime menuju Emerald Green cerah dengan garis punggung vertikal biru elektrik bertuliskan <strong class="text-white">FINISHER</strong> dan motif bendera finish.
+                                </p>
+                                
+                                <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300 border-t border-white/10 pt-4">
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-2 h-2 rounded-full bg-voltLime"></span>
+                                        <span>Garis Belakang Tegak "FINISHER" Ikonik untuk foto kemenangan</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-2 h-2 rounded-full bg-voltLime"></span>
+                                        <span>Gradasi warna kinetik yang sangat mencolok di jalanan & lintasan</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-2 h-2 rounded-full bg-voltLime"></span>
+                                        <span>Pola samar ukiran Kujang pada latar kain bernafas tinggi</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-2 h-2 rounded-full bg-voltLime"></span>
+                                        <span>Bebas dipilih pada Paket Ksatria, atau dapatkan keduanya di Paket Kolektor</span>
+                                    </li>
+                                </ul>
+
+                                <div class="pt-2">
+                                    <button @click="sizeChartModalOpen = true" class="text-voltLime hover:text-white underline text-xs font-bold flex items-center gap-1.5">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+                                        Buka Panduan Ukuran (Size Chart)
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+            </div>
+        </section>
+
+        <!-- ==================== 5. PILIHAN KATEGORI 10K ==================== -->
+        <section id="kategori" class="py-20 bg-cosmicNavy border-t border-white/10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-14">
+                    <span class="text-voltLime uppercase tracking-widest font-display text-xs font-bold">DUA PILIHAN TANTANGAN</span>
+                    <h2 class="font-heading italic font-black text-3xl sm:text-5xl text-white uppercase mt-2">
+                        PILIH METODE <span class="text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-royalBlue">LARIMU</span>
+                    </h2>
+                    <p class="text-slate-400 mt-2 text-sm">
+                        Baik pelari cepat maupun pejalan santai, semua bisa meraih medali pusaka Kujang 10K.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- Single Run -->
+                    <div class="bg-cardNavy p-8 rounded-3xl border border-white/10 hover:border-neonCyan transition-all group">
+                        <div class="inline-block px-3 py-1 rounded-full bg-royalBlue/30 text-neonCyan text-xs font-bold uppercase mb-4">
+                            UNTUK PERSONAL BEST (PB)
+                        </div>
+                        <h3 class="font-heading italic font-black text-3xl text-white uppercase">10K SINGLE RUN</h3>
+                        <p class="text-slate-300 text-sm mt-2 leading-relaxed">
+                            Selesaikan jarak penuh 10 kilometer dalam satu sesi lari tanpa henti. Buktikan daya tahan dan kecepatan terbaikmu.
+                        </p>
+                        <div class="mt-6 pt-5 border-t border-white/10 space-y-2 text-xs text-slate-300">
+                            <div class="flex items-center gap-2 text-neonCyan font-semibold">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                                1x Aktivitas Sesi Lari Tunggal (10 KM)
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                                Lencana khusus "Single Finisher" di E-Sertifikat
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multiple Run -->
+                    <div class="bg-cardNavy p-8 rounded-3xl border border-white/10 hover:border-voltLime transition-all group">
+                        <div class="inline-block px-3 py-1 rounded-full bg-voltLime/20 text-voltLime text-xs font-bold uppercase mb-4">
+                            RAMAH PEMULA & FLEKSIBEL
+                        </div>
+                        <h3 class="font-heading italic font-black text-3xl text-white uppercase">10K MULTIPLE RUN</h3>
+                        <p class="text-slate-300 text-sm mt-2 leading-relaxed">
+                            Selesaikan total 10 kilometer dengan mencicil (misal 2km + 3km + 5km) dalam rentang 30 hari periode lari.
+                        </p>
+                        <div class="mt-6 pt-5 border-t border-white/10 space-y-2 text-xs text-slate-300">
+                            <div class="flex items-center gap-2 text-voltLime font-semibold">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                                Akumulasi s/d 5 sesi lari selama 30 hari
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                                Bebas jogging, jalan santai, atau treadmill
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== 6. TIMELINE RESMI EVENT ==================== -->
+        <section id="timeline" class="py-24 bg-cardNavy/50 border-t border-white/10 relative overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-voltLime uppercase tracking-widest font-display text-xs font-bold">JADWAL LENGKAP & TRANSPARAN</span>
+                    <h2 class="font-heading italic font-black text-3xl sm:text-5xl text-white uppercase mt-2">
+                        TIMELINE RESMI <span class="text-transparent bg-clip-text bg-gradient-to-r from-neonCyan via-royalBlue to-neonPink">EVENT 2026 - 2027</span>
+                    </h2>
+                    <p class="text-slate-300 mt-2 text-sm sm:text-base">
+                        Dimulai 17 November 2026. Setiap tahapan acara telah dijadwalkan secara presisi agar medali dan jersey tiba di tanganmu tepat waktu.
+                    </p>
+                </div>
+
+                <!-- Grid Timeline Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative">
+                    
+                    <!-- Milestone 1: Early Bird (10 Hari) -->
+                    <div class="bg-cardNavy p-6 sm:p-7 rounded-3xl border-2 border-neonPink relative flex flex-col justify-between shadow-neon-pink group hover:scale-102 transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-[11px] font-black uppercase tracking-wider text-cosmicNavy bg-neonPink px-3 py-1 rounded-full">
+                                    TAHAP 01 &bull; 10 HARI
+                                </span>
+                                <span class="text-xs font-bold text-voltLime animate-pulse">SEDANG BERJALAN</span>
+                            </div>
+
+                            <div class="text-xs text-slate-400 font-bold uppercase tracking-wider">Pendaftaran Early Bird</div>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">17 - 26 NOV 2026</h3>
+                            
+                            <p class="text-slate-300 text-xs sm:text-sm mt-3 leading-relaxed">
+                                Periode pendaftaran dengan harga paling hemat (diskon hingga 30%). Kuota dibatasi hanya untuk 1.000 pendaftar pertama selama 10 hari.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs">
+                            <span class="text-slate-400">Status Harga:</span>
+                            <strong class="text-voltLime font-bold">Mulai Rp 149.000</strong>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 2: Reguler (20 Hari) -->
+                    <div class="bg-cardNavy p-6 sm:p-7 rounded-3xl border border-white/10 relative flex flex-col justify-between group hover:border-royalBlue transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-[11px] font-black uppercase tracking-wider text-white bg-royalBlue px-3 py-1 rounded-full">
+                                    TAHAP 02 &bull; 20 HARI
+                                </span>
+                                <span class="text-xs text-slate-400 font-medium">Harga Normal</span>
+                            </div>
+
+                            <div class="text-xs text-slate-400 font-bold uppercase tracking-wider">Pendaftaran Reguler</div>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">27 NOV - 16 DES 2026</h3>
+                            
+                            <p class="text-slate-300 text-xs sm:text-sm mt-3 leading-relaxed">
+                                Pendaftaran tarif reguler berjalan selama 20 hari penuh. Seluruh pendaftaran resmi ditutup pada <strong class="text-white">16 Desember 2026 pukul 23:59 WIB</strong>.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs">
+                            <span class="text-slate-400">Penutupan Slot:</span>
+                            <strong class="text-neonCyan font-bold">16 Desember 2026</strong>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 3: Periode Lari & Submission -->
+                    <div class="bg-cardNavy p-6 sm:p-7 rounded-3xl border border-white/10 relative flex flex-col justify-between group hover:border-neonCyan transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-[11px] font-black uppercase tracking-wider text-cosmicNavy bg-neonCyan px-3 py-1 rounded-full">
+                                    AKTIVITAS & SUBMISSION
+                                </span>
+                                <span class="text-xs text-slate-400 font-medium">Fleksibel</span>
+                            </div>
+
+                            <div class="text-xs text-slate-400 font-bold uppercase tracking-wider">Periode Lari Peserta</div>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">17 NOV - 20 DES 2026</h3>
+                            
+                            <p class="text-slate-300 text-xs sm:text-sm mt-3 leading-relaxed">
+                                Peserta yang telah mendaftar dapat langsung menyelesaikan 10K (Single atau Multiple run) dan mengunggah bukti GPS (Strava, Garmin, NRC, dll).
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs">
+                            <span class="text-slate-400">Batas Submit:</span>
+                            <strong class="text-voltLime font-bold">20 Desember 2026</strong>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 4: Produksi Medali & Jersey (21 Hari) -->
+                    <div class="bg-cardNavy p-6 sm:p-7 rounded-3xl border border-brightGold/40 relative flex flex-col justify-between group hover:border-brightGold transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-[11px] font-black uppercase tracking-wider text-cosmicNavy bg-brightGold px-3 py-1 rounded-full">
+                                    TAHAP 03 &bull; 21 HARI
+                                </span>
+                                <span class="text-xs text-brightGold font-bold">PABRIKASI RESMI</span>
+                            </div>
+
+                            <div class="text-xs text-slate-400 font-bold uppercase tracking-wider">Masa Produksi Medali & Jersey</div>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">17 DES 2026 - 6 JAN 2027</h3>
+                            
+                            <p class="text-slate-300 text-xs sm:text-sm mt-3 leading-relaxed">
+                                Proses cetak presisi die-cast 3D Medali Twin Kujang & Gedung Sate berbahan Zinc Alloy, serta penjahitan sublimasi Jersey sesuai ukuran yang dipilih peserta selama 21 hari.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs">
+                            <span class="text-slate-400">Durasi Produksi:</span>
+                            <strong class="text-brightGold font-bold">21 Hari Kalender</strong>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 5: QC & Packing (3 Hari setelah produksi) -->
+                    <div class="bg-cardNavy p-6 sm:p-7 rounded-3xl border border-white/10 relative flex flex-col justify-between group hover:border-slate-500 transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-[11px] font-black uppercase tracking-wider text-white bg-slate-700 px-3 py-1 rounded-full">
+                                    TAHAP 04 &bull; 3 HARI
+                                </span>
+                                <span class="text-xs text-slate-400 font-medium">Quality Control</span>
+                            </div>
+
+                            <div class="text-xs text-slate-400 font-bold uppercase tracking-wider">Penyortiran & Pengemasan</div>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">7 - 9 JANUARI 2027</h3>
+                            
+                            <p class="text-slate-300 text-xs sm:text-sm mt-3 leading-relaxed">
+                                Pemeriksaan ketat kualitas fisik medali, pemilahan jersey sesuai ukuran dan warna, pemasukan race pack ke pouch khusus, dan penerbitan nomor resi ekspedisi.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs">
+                            <span class="text-slate-400">Standar Mutu:</span>
+                            <strong class="text-white font-bold">100% Lolos Inspeksi</strong>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 6: Pengiriman Serentak -->
+                    <div class="bg-gradient-to-b from-royalBlue/40 via-cardNavy to-cardNavy p-6 sm:p-7 rounded-3xl border-2 border-voltLime relative flex flex-col justify-between shadow-neon-lime group hover:scale-102 transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-[11px] font-black uppercase tracking-wider text-cosmicNavy bg-voltLime px-3 py-1 rounded-full">
+                                    TAHAP 05 &bull; PENGIRIMAN
+                                </span>
+                                <span class="text-xs text-voltLime font-bold uppercase">H+3 SETELAH PRODUKSI</span>
+                            </div>
+
+                            <div class="text-xs text-slate-300 font-bold uppercase tracking-wider">Pengiriman Paket Serentak</div>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">MULAI 10 JANUARI 2027</h3>
+                            
+                            <p class="text-slate-200 text-xs sm:text-sm mt-3 leading-relaxed">
+                                Tepat 3 hari setelah produksi rampung, seluruh paket medali dan jersey dikirimkan serentak ke alamat peserta menggunakan ekspedisi resmi tunggal <strong class="text-voltLime">SPX Express (Shopee Xpress)</strong>. Nomor resi otomatis masuk ke WhatsApp dan Emailmu!
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-white/15 flex items-center justify-between text-xs">
+                            <span class="text-slate-300">Ekspedisi Resmi:</span>
+                            <strong class="text-voltLime font-bold">SPX Express (Shopee Xpress)</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Bottom Summary Banner -->
+                <div class="mt-12 p-6 rounded-2xl bg-cosmicNavy border border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-voltLime/20 text-voltLime flex items-center justify-center font-bold text-xl flex-shrink-0">
+                            🗓️
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm sm:text-base">Mulai 17 November 2026: Amankan Slot Early Bird 10 Hari Pertamamu!</h4>
+                            <p class="text-xs text-slate-400">Harga naik otomatis menjadi tarif normal pada tanggal 27 November 2026.</p>
+                        </div>
+                    </div>
+                    <a :href="registrationUrl" target="_blank"
+                       class="bg-gradient-to-r from-neonCyan via-royalBlue to-neonPink text-white px-6 py-3 rounded-xl font-heading font-black italic text-xs tracking-wider uppercase shadow-neon-blue hover:scale-105 transition-all whitespace-nowrap">
+                        Daftar Early Bird Sekarang &rarr;
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== 7. PAKET PENDAFTARAN & PRICING ==================== -->
+        <section id="paket" class="py-24 bg-deepNavy/80 border-t border-white/10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-voltLime uppercase tracking-widest font-display text-xs font-bold">PILIHAN TIKET EARLY BIRD</span>
+                    <h2 class="font-heading italic font-black text-3xl sm:text-5xl text-white uppercase mt-2">
+                        PAKET PENDAFTARAN <span class="gold-chrome-text">KUJANG 10K</span>
+                    </h2>
+                    <p class="text-slate-300 mt-2 text-sm">
+                        Amankan tiketmu sekarang sebelum kuota harga Early Bird habis!
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                    
+                    <!-- Paket 1: Pusaka (Medal Only) -->
+                    <div class="bg-cardNavy rounded-3xl p-8 border border-white/10 flex flex-col justify-between hover:border-slate-500 transition-all">
+                        <div>
+                            <span class="text-xs font-bold tracking-widest text-slate-400 uppercase">PAKET PUSAKA</span>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">MEDAL ONLY</h3>
+                            <p class="text-slate-400 text-xs mt-1">Fokus pada koleksi medali 3D Kujang & Gedung Sate.</p>
+
+                            <div class="my-6">
+                                <div class="text-xs text-slate-400 line-through">Rp 189.000</div>
+                                <div class="flex items-baseline gap-1">
+                                    <span class="text-sm font-semibold text-kujangGold">Rp</span>
+                                    <span class="font-heading font-black text-4xl text-white">149.000</span>
+                                </div>
+                                <span class="text-[11px] text-voltLime font-bold">Slot Terbatas Early Bird</span>
+                            </div>
+
+                            <ul class="space-y-3 text-xs sm:text-sm text-slate-300 border-t border-white/10 pt-5">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    Medali 3D Twin Kujang & Gedung Sate
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    Tali Lanyard Full-Color Satin
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    E-Bib & Personalized E-Certificate
+                                </li>
+                                <li class="flex items-center gap-2 text-slate-500">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                                    Jersey (Tidak Termasuk)
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a :href="registrationUrl" target="_blank"
+                           class="w-full mt-8 text-center bg-cosmicNavy hover:bg-slate-800 border border-white/20 text-white font-heading font-black italic py-3 rounded-xl transition-all">
+                            PILIH PAKET PUSAKA
+                        </a>
+                    </div>
+
+                    <!-- Paket 2: Ksatria (FULL PACK - POPULAR) -->
+                    <div class="bg-gradient-to-b from-[#181D45] via-cardNavy to-cardNavy rounded-3xl p-8 border-2 border-neonCyan relative flex flex-col justify-between shadow-neon-blue">
+                        
+                        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-neonPink via-royalBlue to-neonCyan text-white text-[11px] font-heading font-black italic tracking-widest px-5 py-1.5 rounded-full shadow-lg uppercase">
+                            PALING POPULER & DIREKOMENDASIKAN
+                        </div>
+
+                        <div>
+                            <span class="text-xs font-bold tracking-widest text-neonCyan uppercase">PAKET KSATRIA</span>
+                            <h3 class="font-heading italic font-black text-3xl text-white mt-1">MEDAL + JERSEY</h3>
+                            <p class="text-slate-300 text-xs mt-1">Paket lengkap medali dan bebas pilih salah satu jersey.</p>
+
+                            <div class="my-6">
+                                <div class="text-xs text-slate-400 line-through">Rp 289.000</div>
+                                <div class="flex items-baseline gap-1">
+                                    <span class="text-sm font-semibold text-voltLime">Rp</span>
+                                    <span class="font-heading font-black text-4xl sm:text-5xl text-white">200.000</span>
+                                </div>
+                                <span class="text-[11px] text-voltLime font-bold">Hemat Rp 89.000 (Early Bird)</span>
+                            </div>
+
+                            <ul class="space-y-3 text-xs sm:text-sm text-slate-200 border-t border-white/15 pt-5">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    <strong class="text-white">Medali 3D Twin Kujang & Gedung Sate</strong>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    <strong class="text-neonCyan">Bebas Pilih: Jersey Royal Blue / Volt Finisher</strong>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    Running Pouch Serut Budayarun
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    E-Bib & Personalized E-Certificate
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    Sticker Pack Kujang Pasundan
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a :href="registrationUrl" target="_blank"
+                           class="w-full mt-8 text-center bg-gradient-to-r from-neonPink via-royalBlue to-neonCyan text-white font-heading font-black italic py-4 rounded-xl shadow-neon-pink hover:scale-105 active:scale-95 transition-all">
+                            DAFTAR SEKARANG (PAKET LENGKAP)
+                        </a>
+                    </div>
+
+                    <!-- Paket 3: Komplit Double Jersey -->
+                    <div class="bg-cardNavy rounded-3xl p-8 border border-white/10 flex flex-col justify-between hover:border-slate-500 transition-all">
+                        <div>
+                            <span class="text-xs font-bold tracking-widest text-voltLime uppercase">PAKET KOLEKTOR</span>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">MEDAL + 2 JERSEYS</h3>
+                            <p class="text-slate-400 text-xs mt-1">Dapatkan kedua varian jersey (Royal Blue + Volt Lime).</p>
+
+                            <div class="my-6">
+                                <div class="text-xs text-slate-400 line-through">Rp 399.000</div>
+                                <div class="flex items-baseline gap-1">
+                                    <span class="text-sm font-semibold text-kujangGold">Rp</span>
+                                    <span class="font-heading font-black text-4xl text-white">339.000</span>
+                                </div>
+                                <span class="text-[11px] text-voltLime font-bold">Edisi Koleksi Terbaik</span>
+                            </div>
+
+                            <ul class="space-y-3 text-xs sm:text-sm text-slate-300 border-t border-white/10 pt-5">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    Medali 3D Twin Kujang & Gedung Sate
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    <strong>Jersey Royal Blue (Pop-Art Sunda)</strong>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    <strong>Finisher Jersey (Volt Lime)</strong>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    Running Pouch + E-Bib + E-Cert
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a :href="registrationUrl" target="_blank"
+                           class="w-full mt-8 text-center bg-cosmicNavy hover:bg-slate-800 border border-white/20 text-white font-heading font-black italic py-3 rounded-xl transition-all">
+                            PILIH PAKET KOLEKTOR
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== 7. ALUR 4 LANGKAH ==================== -->
+        <section class="py-20 bg-cosmicNavy border-t border-white/10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-14">
+                    <span class="text-voltLime uppercase tracking-widest font-display text-xs font-bold">CARA MENGIKUTI</span>
+                    <h2 class="font-heading italic font-black text-3xl sm:text-5xl text-white uppercase mt-2">
+                        4 LANGKAH MUDAH <span class="text-neonCyan">IKUTAN</span>
+                    </h2>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-cardNavy p-6 rounded-2xl border border-white/10 text-center">
+                        <div class="w-12 h-12 mx-auto rounded-full bg-gradient-to-br from-neonPink to-royalBlue text-white font-heading font-black italic text-xl flex items-center justify-center mb-4">01</div>
+                        <h4 class="font-heading italic font-bold text-lg text-white mb-2">DAFTAR ONLINE</h4>
+                        <p class="text-xs text-slate-300">Pilih paket tiket dan masukkan alamat pengiriman medali secara lengkap.</p>
+                    </div>
+                    <div class="bg-cardNavy p-6 rounded-2xl border border-white/10 text-center">
+                        <div class="w-12 h-12 mx-auto rounded-full bg-gradient-to-br from-royalBlue to-neonCyan text-white font-heading font-black italic text-xl flex items-center justify-center mb-4">02</div>
+                        <h4 class="font-heading italic font-bold text-lg text-white mb-2">LARI DI MANA SAJA</h4>
+                        <p class="text-xs text-slate-300">Lari di jalan, taman, atau treadmill di kotamu dalam periode event 30 hari.</p>
+                    </div>
+                    <div class="bg-cardNavy p-6 rounded-2xl border border-white/10 text-center">
+                        <div class="w-12 h-12 mx-auto rounded-full bg-gradient-to-br from-neonCyan to-voltLime text-cosmicNavy font-heading font-black italic text-xl flex items-center justify-center mb-4">03</div>
+                        <h4 class="font-heading italic font-bold text-lg text-white mb-2">SUBMIT HASIL</h4>
+                        <p class="text-xs text-slate-300">Rekam dengan Strava, Garmin, NRC, Suunto, Coros, lalu upload di portal peserta.</p>
+                    </div>
+                    <div class="bg-cardNavy p-6 rounded-2xl border border-white/10 text-center">
+                        <div class="w-12 h-12 mx-auto rounded-full bg-gradient-to-br from-brightGold to-kujangGold text-cosmicNavy font-heading font-black italic text-xl flex items-center justify-center mb-4">04</div>
+                        <h4 class="font-heading italic font-bold text-lg text-white mb-2">MEDALI DIKIRIM</h4>
+                        <p class="text-xs text-slate-300">Setelah jarak tervalidasi, medali dan jerseymu dikirimkan langsung ke rumah!</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== 8. FAQ ACCORDION ==================== -->
+        <section id="faq" class="py-20 bg-deepNavy/60 border-t border-white/10" x-data="{ openFaq: null }">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center mb-12">
+                    <span class="text-voltLime uppercase tracking-widest font-display text-xs font-bold">BANTUAN & INFORMASI</span>
+                    <h2 class="font-heading italic font-black text-3xl sm:text-5xl text-white uppercase mt-2">
+                        PERTANYAAN SERING <span class="text-neonCyan">DIAJUKAN</span>
+                    </h2>
+                </div>
+
+                <div class="space-y-3.5">
+                    
+                    <div class="bg-cardNavy rounded-2xl border border-white/10 overflow-hidden">
+                        <button @click="openFaq = (openFaq === 1 ? null : 1)" 
+                                class="w-full px-6 py-4 text-left flex items-center justify-between text-white font-bold text-sm sm:text-base hover:text-neonCyan transition-colors">
+                            <span>Kapan tanggal dan timeline pelaksanaan Kujang Virtual Run 10K?</span>
+                            <svg class="w-5 h-5 transform transition-transform" :class="openFaq === 1 ? 'rotate-180 text-neonCyan' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                        </button>
+                        <div x-show="openFaq === 1" x-cloak x-transition class="px-6 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-white/10 pt-3 space-y-2">
+                            <p>Berikut adalah jadwal resmi event yang dimulai pada <strong class="text-white">17 November 2026</strong>:</p>
+                            <ul class="list-disc list-inside space-y-1 text-slate-300">
+                                <li><strong class="text-neonPink">Pendaftaran Early Bird (10 Hari):</strong> 17 – 26 November 2026</li>
+                                <li><strong class="text-neonCyan">Pendaftaran Reguler (20 Hari):</strong> 27 November – 16 Desember 2026</li>
+                                <li><strong class="text-voltLime">Periode Lari & Submission:</strong> 17 November – 20 Desember 2026</li>
+                                <li><strong class="text-brightGold">Masa Produksi Medali & Jersey (21 Hari):</strong> 17 Desember 2026 – 6 Januari 2027</li>
+                                <li><strong class="text-slate-300">Quality Control & Packing (3 Hari):</strong> 7 – 9 Januari 2027</li>
+                                <li><strong class="text-voltLime">Pengiriman Serentak:</strong> Mulai 10 Januari 2027 via ekspedisi resmi tunggal SPX Express (Shopee Xpress)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-cardNavy rounded-2xl border border-white/10 overflow-hidden">
+                        <button @click="openFaq = (openFaq === 2 ? null : 2)" 
+                                class="w-full px-6 py-4 text-left flex items-center justify-between text-white font-bold text-sm sm:text-base hover:text-neonCyan transition-colors">
+                            <span>Aplikasi apa saja yang dapat digunakan untuk mencatat lari?</span>
+                            <svg class="w-5 h-5 transform transition-transform" :class="openFaq === 2 ? 'rotate-180 text-neonCyan' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                        </button>
+                        <div x-show="openFaq === 2" x-cloak x-transition class="px-6 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-white/10 pt-3">
+                            Kami mendukung Strava, Garmin Connect, Nike Run Club (NRC), Suunto, Coros, Apple Fitness, Polar, serta foto layar treadmill yang menunjukkan jarak dan waktu lari.
+                        </div>
+                    </div>
+
+                    <div class="bg-cardNavy rounded-2xl border border-white/10 overflow-hidden">
+                        <button @click="openFaq = (openFaq === 3 ? null : 3)" 
+                                class="w-full px-6 py-4 text-left flex items-center justify-between text-white font-bold text-sm sm:text-base hover:text-neonCyan transition-colors">
+                            <span>Ekspedisi apa yang digunakan untuk pengiriman medali?</span>
+                            <svg class="w-5 h-5 transform transition-transform" :class="openFaq === 3 ? 'rotate-180 text-neonCyan' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                        </button>
+                        <div x-show="openFaq === 3" x-cloak x-transition class="px-6 pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-white/10 pt-3">
+                            Pengiriman race pack dan medali fisik dilakukan secara eksklusif menggunakan <strong>SPX Express (Shopee Xpress)</strong> sebagai mitra logistik resmi tunggal. Nomor resi pengiriman akan otomatis dikirimkan ke nomor WhatsApp dan email terdaftar Anda saat proses kirim dimulai.
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- CS WhatsApp Box -->
+                <div class="mt-10 p-6 bg-cardNavy rounded-2xl border border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div>
+                        <h4 class="font-bold text-white text-sm sm:text-base">Butuh bantuan pendaftaran atau pendaftaran kolektif komunitas?</h4>
+                        <p class="text-xs text-slate-400 mt-1">Admin Budayarun siap membantu Anda setiap hari.</p>
+                    </div>
+                    <a :href="whatsappUrl" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-2.5 rounded-xl text-xs sm:text-sm transition-colors whitespace-nowrap">
+                        Chat WhatsApp Resmi
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==================== 9. FOOTER ==================== -->
+        <footer class="bg-cosmicNavy border-t border-white/10 pt-14 pb-24 lg:pb-14 text-slate-400 text-xs">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
+                <div class="flex flex-col sm:flex-row items-center justify-between gap-6 pb-8 border-b border-white/10">
+                    <div>
+                        <span class="font-heading italic font-black text-2xl text-white tracking-tighter uppercase">BUDAYARUN</span>
+                        <p class="text-slate-400 text-xs mt-1">Gerakan Lari & Pelestarian Warisan Budaya Nusantara.</p>
+                    </div>
+                    <div class="flex items-center gap-4 text-xs font-bold text-slate-300">
+                        <a href="#rewards" class="hover:text-neonCyan">MEDALI & JERSEY</a>
+                        <a href="#paket" class="hover:text-neonCyan">TIKET</a>
+                        <a href="#faq" class="hover:text-neonCyan">FAQ</a>
+                    </div>
+                </div>
+                <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-500">
+                    <p>&copy; 2027 Budayarun. Seluruh hak cipta dilindungi undang-undang.</p>
+                    <p>Kujang 10K Virtual Run Series.</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- ==================== 10. SIZE CHART MODAL ==================== -->
+    <div x-show="sizeChartModalOpen" x-cloak
+         class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+        
+        <div @click.away="sizeChartModalOpen = false"
+             class="bg-cardNavy border border-neonCyan/50 rounded-3xl max-w-xl w-full p-6 sm:p-8 shadow-2xl relative">
+            
+            <button @click="sizeChartModalOpen = false" class="absolute top-5 right-5 text-slate-400 hover:text-white p-1">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+
+            <h3 class="font-heading italic font-black text-2xl text-white mb-1 uppercase">PANDUAN UKURAN JERSEY</h3>
+            <p class="text-xs text-slate-400 mb-5">Toleransi jahitan &plusmn; 1.5 cm. Model athletic unisex fit.</p>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-xs border-collapse">
+                    <thead>
+                        <tr class="border-b border-white/10 text-neonCyan font-bold">
+                            <th class="py-2.5 px-3">Ukuran</th>
+                            <th class="py-2.5 px-3">Lebar Dada</th>
+                            <th class="py-2.5 px-3">Panjang Baju</th>
+                            <th class="py-2.5 px-3">Rekomendasi BB</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-white/5 text-slate-300">
+                        <tr><td class="py-2 px-3 font-bold text-white">XS</td><td class="py-2 px-3">46 cm</td><td class="py-2 px-3">65 cm</td><td class="py-2 px-3">45 - 52 kg</td></tr>
+                        <tr><td class="py-2 px-3 font-bold text-white">S</td><td class="py-2 px-3">48 cm</td><td class="py-2 px-3">67 cm</td><td class="py-2 px-3">53 - 60 kg</td></tr>
+                        <tr><td class="py-2 px-3 font-bold text-white">M</td><td class="py-2 px-3">50 cm</td><td class="py-2 px-3">69 cm</td><td class="py-2 px-3">61 - 68 kg</td></tr>
+                        <tr class="bg-royalBlue/20"><td class="py-2 px-3 font-bold text-voltLime">L</td><td class="py-2 px-3 text-voltLime">52 cm</td><td class="py-2 px-3 text-voltLime">71 cm</td><td class="py-2 px-3 text-voltLime">69 - 76 kg</td></tr>
+                        <tr><td class="py-2 px-3 font-bold text-white">XL</td><td class="py-2 px-3">54 cm</td><td class="py-2 px-3">73 cm</td><td class="py-2 px-3">77 - 85 kg</td></tr>
+                        <tr><td class="py-2 px-3 font-bold text-white">XXL</td><td class="py-2 px-3">56 cm</td><td class="py-2 px-3">75 cm</td><td class="py-2 px-3">86 - 95 kg</td></tr>
+                        <tr><td class="py-2 px-3 font-bold text-white">3XL</td><td class="py-2 px-3">58 cm</td><td class="py-2 px-3">77 cm</td><td class="py-2 px-3">> 95 kg</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-white/10 text-center">
+                <button @click="sizeChartModalOpen = false" class="bg-gradient-to-r from-neonCyan to-royalBlue text-white px-6 py-2 rounded-xl font-bold text-xs">
+                    Tutup Panduan
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 11. MOBILE FLOATING STICKY BOTTOM BAR ==================== -->
+    <div x-show="showStickyBar" x-cloak
+         x-transition:enter="transition ease-out duration-300 transform"
+         x-transition:enter-start="translate-y-full"
+         x-transition:enter-end="translate-y-0"
+         x-transition:leave="transition ease-in duration-200 transform"
+         x-transition:leave-start="translate-y-0"
+         x-transition:leave-end="translate-y-full"
+         class="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-cardNavy/95 backdrop-blur-lg border-t border-neonCyan/40 p-3 px-4 shadow-[0_-10px_25px_rgba(0,0,0,0.8)] flex items-center justify-between gap-3">
+        
+        <div>
+            <div class="text-[10px] text-slate-400 font-semibold uppercase">EARLY BIRD KUJANG 10K</div>
+            <div class="text-xs font-black text-voltLime">Mulai Rp 149.000</div>
+        </div>
+
+        <a :href="registrationUrl" target="_blank"
+           class="flex-1 text-center bg-gradient-to-r from-neonPink via-royalBlue to-neonCyan text-white py-2.5 px-4 rounded-xl font-heading font-black italic text-xs tracking-wider shadow-neon-pink">
+            DAFTAR SEKARANG &rarr;
+        </a>
+    </div>
+
+    <!-- ==================== 12. ALPINE.JS SCRIPT ==================== -->
+    <script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.data('landingApp', () => ({
+                // TAUTAN REGISTRASI & WHATSAPP
+                registrationUrl: 'https://larivirtual.com/events/kujang-virtual/register',
+                whatsappUrl: 'https://wa.me/6281234567890?text=Halo%20Admin%20Budayarun,%20saya%20ingin%20tanya%20seputar%20Kujang%20Virtual%20Run%2010K',
+                
+                // UI States
+                mobileMenuOpen: false,
+                sizeChartModalOpen: false,
+                showStickyBar: false,
+
+                // Countdown Timer
+                days: '08',
+                hours: '14',
+                minutes: '32',
+                seconds: '45',
+
+                init() {
+                    this.startCountdown();
+                    window.addEventListener('scroll', () => {
+                        this.showStickyBar = window.scrollY > 400;
+                    });
+                },
+
+                startCountdown() {
+                    // Target Early Bird: 26 November 2026 23:59:59 WIB (GMT+7)
+                    let targetDate = new Date('2026-11-26T23:59:59+07:00');
+
+                    const updateTimer = () => {
+                        const now = new Date().getTime();
+                        let distance = targetDate.getTime() - now;
+
+                        // Jika periode Early Bird telah lewat, hitung mundur menuju penutupan pendaftaran 16 Des 2026
+                        if (distance < 0) {
+                            targetDate = new Date('2026-12-16T23:59:59+07:00');
+                            distance = targetDate.getTime() - now;
+                        }
+
+                        if (distance < 0) {
+                            this.days = '00';
+                            this.hours = '00';
+                            this.minutes = '00';
+                            this.seconds = '00';
+                            return;
+                        }
+
+                        const d = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        const h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        const m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        const s = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        this.days = String(d).padStart(2, '0');
+                        this.hours = String(h).padStart(2, '0');
+                        this.minutes = String(m).padStart(2, '0');
+                        this.seconds = String(s).padStart(2, '0');
+                    };
+
+                    updateTimer();
+                    setInterval(updateTimer, 1000);
+                }
+            }));
+        });
+    </script>
+</body>
+</html>

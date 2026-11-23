@@ -25,7 +25,7 @@ Buka file [index.html](file:///Users/bangnahan/Kujang%20Virtual%20Run/index.html
 ```javascript
 // Ganti URL di bawah dengan link Google Form, Mayar, Loket, Midtrans, atau platform tiket Anda:
 registrationUrl: 'https://larivirtual.com/events/kujang-virtual/register',
-whatsappUrl: 'https://wa.me/6281234567890?text=Halo%20Admin%20Budayarun...',
+whatsappUrl: 'https://wa.me/6281916444458?text=Halo%20Admin%20Budayarun...',
 ```
 
 * Cukup ganti nilai `'https://larivirtual.com/events/kujang-virtual/register'` dengan URL formulir / platform pembayaran Anda.

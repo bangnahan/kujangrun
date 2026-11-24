@@ -78,7 +78,7 @@ Buka browser di: [http://localhost:8080](http://localhost:8080)
 ## 🌟 Fitur Unggulan yang Sudah Aktif di Landing Page Ini:
 * **Countdown Timer Real-time**: Hitung mundur dinamis menuju penutupan kuota Early Bird.
 * **Showcase Medali 3D Kujang**: Ilustrasi detail medali Kujang berbahan solid zinc alloy dengan motif tradisional Sunda.
-* **Interactive Tabs Rewards**: Tab interaktif untuk melihat Finisher Jersey dry-fit, Medali 3D, dan Running Pouch.
+* **Interactive Direct Showcase Rewards**: Showcase visual untuk Finisher Jersey dry-fit (Royal Blue & Volt Lime) dan Medali 3D Twin Kujang.
 * **Modal Size Chart Interaktif**: Panduan ukuran jersey XS hingga 3XL.
 * **Mobile Floating Sticky Bar**: Tombol daftar melayang otomatis saat pengunjung scroll di layar smartphone.
 * **Accordion FAQ**: Tanya jawab interaktif yang rapi dan responsif.

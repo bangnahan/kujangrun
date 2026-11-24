@@ -159,7 +159,6 @@ Dua kartu opsi lari yang mengakomodasi semua level pelari:
 | **Medali Kujang 3D** | ✅ Ya | ✅ Ya | ✅ Ya | ✅ Ya |
 | **Jersey Event (Royal Blue)** | ❌ Tidak | ✅ Ya (Dryfit) | ❌ Tidak | ✅ Ya (Dryfit) |
 | **Jersey Finisher (Volt Lime)**| ❌ Tidak | ❌ Tidak | ✅ Ya (Dryfit) | ✅ Ya (Dryfit) |
-| **Pouch Serut Eksklusif** | ❌ Tidak | ✅ Ya | ✅ Ya | ✅ Ya |
 | **E-Bib & E-Sertifikat** | ✅ Ya | ✅ Ya | ✅ Ya | ✅ Ya |
 | **Kurir Ekspedisi** | SPX Express | SPX Express | SPX Express | SPX Express |
 | **CTA Button** | [Daftar Sekarang] | **[Daftar Sekarang]** | [Daftar Sekarang] | **[Daftar Sekarang]** |

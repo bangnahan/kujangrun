@@ -141,7 +141,6 @@ Dua kartu opsi lari yang mengakomodasi semua level pelari:
    * Tag: *Tantangan Sekali Tuntas*
    * Deskripsi: Selesaikan jarak 10K dalam satu aktivitas lari tunggal.
    * Cocok untuk: Pelari berpengalaman yang menargetkan waktu tempuh terbaik (*Personal Best*).
-   * Badge Khusus: Di E-Certificate tercantum tanda kehormatan *"Single Run Finisher"*.
 
 2. **10K Multiple Run (Ksatria Gigih - Akumulasi)**
    * Tag: *Inklusif & Fleksibel*

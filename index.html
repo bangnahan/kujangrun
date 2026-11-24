@@ -468,7 +468,7 @@
                                     </li>
                                     <li class="flex items-center gap-2">
                                         <span class="w-2 h-2 rounded-full bg-voltLime"></span>
-                                        <span>Bebas dipilih pada Paket Ksatria, atau dapatkan keduanya di Paket Kolektor</span>
+                                        <span>Tersedia pada paket Jersey Finisher + Medali, atau paket lengkap 2 Jerseys</span>
                                     </li>
                                 </ul>
 
@@ -739,143 +739,217 @@
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
                     
-                    <!-- Paket 1: Pusaka (Medal Only) -->
-                    <div class="bg-cardNavy rounded-3xl p-8 border border-white/10 flex flex-col justify-between hover:border-slate-500 transition-all">
+                    <!-- Paket 1: Medali Only -->
+                    <div class="bg-cardNavy rounded-3xl p-6 sm:p-7 border border-white/10 flex flex-col justify-between hover:border-slate-500 transition-all">
                         <div>
-                            <span class="text-xs font-bold tracking-widest text-slate-400 uppercase">PAKET PUSAKA</span>
-                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">MEDAL ONLY</h3>
-                            <p class="text-slate-400 text-xs mt-1">Fokus pada koleksi medali 3D Kujang & Gedung Sate.</p>
+                            <span class="text-[11px] font-bold tracking-widest text-slate-400 uppercase">TIKET LARI VIRTUAL</span>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">Medali Only</h3>
+                            <p class="text-slate-400 text-xs mt-1">Tuntaskan tantangan 10K dan raih paket medali fisik resmi.</p>
 
                             <div class="my-6">
                                 <div class="text-xs text-slate-400 line-through">Rp 189.000</div>
                                 <div class="flex items-baseline gap-1">
                                     <span class="text-sm font-semibold text-kujangGold">Rp</span>
-                                    <span class="font-heading font-black text-4xl text-white">149.000</span>
+                                    <span class="font-heading font-black text-3xl sm:text-4xl text-white">149.000</span>
                                 </div>
                                 <span class="text-[11px] text-voltLime font-bold">Slot Terbatas Early Bird</span>
                             </div>
 
-                            <ul class="space-y-3 text-xs sm:text-sm text-slate-300 border-t border-white/10 pt-5">
+                            <ul class="space-y-2.5 text-xs text-slate-300 border-t border-white/10 pt-5">
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    Medali 3D Twin Kujang & Gedung Sate
+                                    <span class="text-amber-400">🏅</span>
+                                    <span>Medali Zinc Alloy 3D Twin Kujang</span>
                                 </li>
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    Tali Lanyard Full-Color Satin
+                                    <span class="text-sky-400">📦</span>
+                                    <span>Race Pack Pengiriman via SPX</span>
                                 </li>
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    E-Bib & Personalized E-Certificate
+                                    <span class="text-emerald-400">📜</span>
+                                    <span>E-BIB &amp; Personalized E-Sertifikat</span>
                                 </li>
                                 <li class="flex items-center gap-2 text-slate-500">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
-                                    Jersey (Tidak Termasuk)
+                                    <span>❌</span>
+                                    <span>Jersey (Tidak Termasuk)</span>
                                 </li>
                             </ul>
                         </div>
 
                         <a :href="registrationUrl" target="_blank"
-                           class="w-full mt-8 text-center bg-cosmicNavy hover:bg-slate-800 border border-white/20 text-white font-heading font-black italic py-3 rounded-xl transition-all">
-                            PILIH PAKET PUSAKA
+                           class="w-full mt-6 text-center bg-cosmicNavy hover:bg-slate-800 border border-white/20 text-white font-heading font-black italic py-3 rounded-xl transition-all text-xs tracking-wider">
+                            PILIH MEDALI ONLY
                         </a>
                     </div>
 
-                    <!-- Paket 2: Ksatria (FULL PACK - POPULAR) -->
-                    <div class="bg-gradient-to-b from-[#181D45] via-cardNavy to-cardNavy rounded-3xl p-8 border-2 border-neonCyan relative flex flex-col justify-between shadow-neon-blue">
-                        
-                        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-neonPink via-royalBlue to-neonCyan text-white text-[11px] font-heading font-black italic tracking-widest px-5 py-1.5 rounded-full shadow-lg uppercase">
-                            PALING POPULER & DIREKOMENDASIKAN
+                    <!-- Paket 2: Jersey event + Medali -->
+                    <div class="bg-gradient-to-b from-[#181D45] via-cardNavy to-cardNavy rounded-3xl p-6 sm:p-7 border-2 border-neonCyan relative flex flex-col justify-between shadow-neon-blue">
+                        <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-neonPink via-royalBlue to-neonCyan text-white text-[10px] font-heading font-black italic tracking-widest px-4 py-1 rounded-full shadow-lg uppercase whitespace-nowrap">
+                            POPULER &amp; FAVORIT
                         </div>
 
                         <div>
-                            <span class="text-xs font-bold tracking-widest text-neonCyan uppercase">PAKET KSATRIA</span>
-                            <h3 class="font-heading italic font-black text-3xl text-white mt-1">MEDAL + JERSEY</h3>
-                            <p class="text-slate-300 text-xs mt-1">Paket lengkap medali dan bebas pilih salah satu jersey.</p>
+                            <span class="text-[11px] font-bold tracking-widest text-neonCyan uppercase">PAKET JERSEY + MEDALI</span>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">Jersey event + Medali</h3>
+                            <p class="text-slate-300 text-xs mt-1">Medali Kujang 3D + Jersey Event Royal Blue Pop-Art.</p>
 
                             <div class="my-6">
                                 <div class="text-xs text-slate-400 line-through">Rp 289.000</div>
                                 <div class="flex items-baseline gap-1">
                                     <span class="text-sm font-semibold text-voltLime">Rp</span>
-                                    <span class="font-heading font-black text-4xl sm:text-5xl text-white">200.000</span>
+                                    <span class="font-heading font-black text-3xl sm:text-4xl text-white">200.000</span>
                                 </div>
                                 <span class="text-[11px] text-voltLime font-bold">Hemat Rp 89.000 (Early Bird)</span>
                             </div>
 
-                            <ul class="space-y-3 text-xs sm:text-sm text-slate-200 border-t border-white/15 pt-5">
+                            <ul class="space-y-2.5 text-xs text-slate-200 border-t border-white/15 pt-5">
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    <strong class="text-white">Medali 3D Twin Kujang & Gedung Sate</strong>
+                                    <span class="text-cyan-400">🎽</span>
+                                    <strong>Jersey Event Royal Blue (Pop-Art)</strong>
                                 </li>
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    <strong class="text-neonCyan">Bebas Pilih: Jersey Royal Blue / Volt Finisher</strong>
+                                    <span class="text-amber-400">🏅</span>
+                                    <strong class="text-white">Medali 3D Twin Kujang &amp; Gedung Sate</strong>
                                 </li>
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    Running Pouch Serut Budayarun
+                                    <span class="text-sky-400">📦</span>
+                                    <span>Race Pack Pengiriman via SPX</span>
                                 </li>
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    E-Bib & Personalized E-Certificate
+                                    <span class="text-emerald-400">📜</span>
+                                    <span>E-BIB &amp; Personalized E-Sertifikat</span>
                                 </li>
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    Sticker Pack Kujang Pasundan
+                                    <span class="text-pink-400">🎒</span>
+                                    <span>Pouch Serut Budayarun</span>
                                 </li>
                             </ul>
                         </div>
 
                         <a :href="registrationUrl" target="_blank"
-                           class="w-full mt-8 text-center bg-gradient-to-r from-neonPink via-royalBlue to-neonCyan text-white font-heading font-black italic py-4 rounded-xl shadow-neon-pink hover:scale-105 active:scale-95 transition-all">
-                            DAFTAR SEKARANG (PAKET LENGKAP)
+                           class="w-full mt-6 text-center bg-gradient-to-r from-neonPink via-royalBlue to-neonCyan text-white font-heading font-black italic py-3 rounded-xl shadow-neon-pink hover:scale-102 active:scale-95 transition-all text-xs tracking-wider">
+                            PILIH JERSEY EVENT + MEDALI
                         </a>
                     </div>
 
-                    <!-- Paket 3: Komplit Double Jersey -->
-                    <div class="bg-cardNavy rounded-3xl p-8 border border-white/10 flex flex-col justify-between hover:border-slate-500 transition-all">
+                    <!-- Paket 3: Jersey Finisher + Medali -->
+                    <div class="bg-gradient-to-b from-[#1C2618] via-cardNavy to-cardNavy rounded-3xl p-6 sm:p-7 border-2 border-voltLime relative flex flex-col justify-between shadow-neon-lime">
+                        <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-voltLime to-emerald-400 text-cosmicNavy text-[10px] font-heading font-black italic tracking-widest px-4 py-1 rounded-full shadow-lg uppercase whitespace-nowrap">
+                            EDISI FINISHER
+                        </div>
+
                         <div>
-                            <span class="text-xs font-bold tracking-widest text-voltLime uppercase">PAKET KOLEKTOR</span>
-                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">MEDAL + 2 JERSEYS</h3>
-                            <p class="text-slate-400 text-xs mt-1">Dapatkan kedua varian jersey (Royal Blue + Volt Lime).</p>
+                            <span class="text-[11px] font-bold tracking-widest text-voltLime uppercase">PAKET JERSEY + MEDALI</span>
+                            <h3 class="font-heading italic font-black text-2xl text-white mt-1">Jersey Finisher + Medali</h3>
+                            <p class="text-slate-300 text-xs mt-1">Medali Kujang 3D + Finisher Jersey Volt Lime to Emerald.</p>
+
+                            <div class="my-6">
+                                <div class="text-xs text-slate-400 line-through">Rp 289.000</div>
+                                <div class="flex items-baseline gap-1">
+                                    <span class="text-sm font-semibold text-voltLime">Rp</span>
+                                    <span class="font-heading font-black text-3xl sm:text-4xl text-white">200.000</span>
+                                </div>
+                                <span class="text-[11px] text-voltLime font-bold">Hemat Rp 89.000 (Early Bird)</span>
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-200 border-t border-white/15 pt-5">
+                                <li class="flex items-center gap-2">
+                                    <span class="text-voltLime">🎽</span>
+                                    <strong>Finisher Jersey (Volt Lime to Emerald)</strong>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-amber-400">🏅</span>
+                                    <strong class="text-white">Medali 3D Twin Kujang &amp; Gedung Sate</strong>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-sky-400">📦</span>
+                                    <span>Race Pack Pengiriman via SPX</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-emerald-400">📜</span>
+                                    <span>E-BIB &amp; Personalized E-Sertifikat</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-pink-400">🎒</span>
+                                    <span>Pouch Serut Budayarun</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a :href="registrationUrl" target="_blank"
+                           class="w-full mt-6 text-center bg-gradient-to-r from-voltLime via-emerald-400 to-teal-400 text-cosmicNavy font-heading font-black italic py-3 rounded-xl shadow-neon-lime hover:scale-102 active:scale-95 transition-all text-xs tracking-wider">
+                            PILIH FINISHER + MEDALI
+                        </a>
+                    </div>
+
+                    <!-- Paket 4: Jersey Event + Finisher + Medali -->
+                    <div class="bg-cardNavy rounded-3xl p-6 sm:p-7 border border-brightGold/50 flex flex-col justify-between hover:border-brightGold transition-all relative">
+                        <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brightGold text-cosmicNavy text-[10px] font-heading font-black italic tracking-widest px-4 py-1 rounded-full shadow-lg uppercase whitespace-nowrap">
+                            PAKET LENGKAP 2 JERSEYS
+                        </div>
+
+                        <div>
+                            <span class="text-[11px] font-bold tracking-widest text-brightGold uppercase">EDISI KOLEKTOR LENGKAP</span>
+                            <h3 class="font-heading italic font-black text-xl text-white mt-1">Jersey Event + Finisher + Medali</h3>
+                            <p class="text-slate-400 text-xs mt-1">Dapatkan kedua varian jersey (Royal Blue + Volt Lime) + Medali.</p>
 
                             <div class="my-6">
                                 <div class="text-xs text-slate-400 line-through">Rp 399.000</div>
                                 <div class="flex items-baseline gap-1">
-                                    <span class="text-sm font-semibold text-kujangGold">Rp</span>
-                                    <span class="font-heading font-black text-4xl text-white">339.000</span>
+                                    <span class="text-sm font-semibold text-brightGold">Rp</span>
+                                    <span class="font-heading font-black text-3xl sm:text-4xl text-white">339.000</span>
                                 </div>
-                                <span class="text-[11px] text-voltLime font-bold">Edisi Koleksi Terbaik</span>
+                                <span class="text-[11px] text-voltLime font-bold">Hemat Rp 60.000 (Early Bird)</span>
                             </div>
 
-                            <ul class="space-y-3 text-xs sm:text-sm text-slate-300 border-t border-white/10 pt-5">
+                            <ul class="space-y-2.5 text-xs text-slate-300 border-t border-white/10 pt-5">
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    Medali 3D Twin Kujang & Gedung Sate
+                                    <span class="text-cyan-400">🎽</span>
+                                    <strong>Jersey Event Royal Blue</strong>
                                 </li>
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    <strong>Jersey Royal Blue (Pop-Art Sunda)</strong>
+                                    <span class="text-voltLime">🎽</span>
+                                    <strong>Finisher Jersey Volt Lime</strong>
                                 </li>
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    <strong>Finisher Jersey (Volt Lime)</strong>
+                                    <span class="text-amber-400">🏅</span>
+                                    <strong>Medali 3D Twin Kujang &amp; Gedung Sate</strong>
                                 </li>
                                 <li class="flex items-center gap-2">
-                                    <svg class="w-4 h-4 text-voltLime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                    Running Pouch + E-Bib + E-Cert
+                                    <span class="text-sky-400">📦</span>
+                                    <span>Race Pack Pengiriman via SPX</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-emerald-400">📜</span>
+                                    <span>E-BIB &amp; E-Sertifikat + Pouch</span>
                                 </li>
                             </ul>
                         </div>
 
                         <a :href="registrationUrl" target="_blank"
-                           class="w-full mt-8 text-center bg-cosmicNavy hover:bg-slate-800 border border-white/20 text-white font-heading font-black italic py-3 rounded-xl transition-all">
-                            PILIH PAKET KOLEKTOR
+                           class="w-full mt-6 text-center bg-gradient-to-r from-brightGold to-kujangGold text-cosmicNavy font-heading font-black italic py-3 rounded-xl transition-all text-xs tracking-wider">
+                            PILIH 2 JERSEYS + MEDALI
                         </a>
                     </div>
 
+                </div>
+
+                <!-- Tambahan Opsi Jersey Only -->
+                <div class="mt-8 p-5 sm:p-6 rounded-2xl bg-cardNavy/80 border border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-royalBlue/20 text-neonCyan flex items-center justify-center font-bold text-lg flex-shrink-0">
+                            👕
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm sm:text-base">Hanya butuh jersey tambahan tanpa medali?</h4>
+                            <p class="text-xs text-slate-400">Tersedia pilihan <strong>Jersey Event Only (Rp 150.000)</strong> dan <strong>Jersey Finisher Only (Rp 159.000)</strong>.</p>
+                        </div>
+                    </div>
+                    <a :href="registrationUrl" target="_blank"
+                       class="text-xs font-bold text-neonCyan hover:text-white bg-white/5 hover:bg-white/10 border border-neonCyan/30 px-5 py-2.5 rounded-xl transition-all whitespace-nowrap">
+                        Pilih Opsi Jersey Only &rarr;
+                    </a>
                 </div>
 
             </div>

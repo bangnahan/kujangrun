@@ -91,11 +91,14 @@ Simbol utama acara ini adalah **Kujang**, senjata tradisional khas Sunda yang me
   * Exclusive Running Pouch / String Bag & Sponsor Goodies.
 
 ### 5.4 Modul Paket Pendaftaran & Pricing Tier
-Tabel kartu komparasi paket yang jelas:
-* **Paket Ksatria (Full Package)**: Finisher Medal + Finisher Jersey + E-Bib + E-Cert + Race Pack Pouch.
-* **Paket Pusaka (Medal Only)**: Finisher Medal + E-Bib + E-Cert + Sticker Pack.
-* **Paket Digital (Eco / Virtual Only)**: E-Bib + E-Certificate + Finisher Tree Donation (opsional CSR).
-* *Fitur Voucher / Kode Promo*: Input kode diskon komunitas atau early bird token.
+Tabel dan kartu paket yang sesuai 1:1 dengan sistem pendaftaran LariVirtual (`https://larivirtual.com/events/kujang-virtual/register`):
+* **Medali Only (Rp 149.000)**: Medali Zinc Alloy 3D Twin Kujang & Gedung Sate + E-Bib + E-Sertifikat + Pengiriman via SPX.
+* **Jersey event + Medali (Rp 200.000)**: Jersey Event Royal Blue Pop-Art Sunda + Medali 3D Twin Kujang + E-Bib + E-Cert + Pouch Serut + Pengiriman via SPX.
+* **Jersey Finisher + Medali (Rp 200.000)**: Finisher Jersey Volt Lime to Emerald + Medali 3D Twin Kujang + E-Bib + E-Cert + Pouch Serut + Pengiriman via SPX.
+* **Jersey Event + Finisher + Medali (Rp 339.000)**: Paket Lengkap 2 Jerseys (Event + Finisher) + Medali 3D Twin Kujang + E-Bib + E-Cert + Pouch Serut + Pengiriman via SPX.
+* **Opsi Add-on Jersey Only**:
+  * **Jersey Event Only (Rp 150.000)**: Jersey Event Royal Blue Dryfit + E-Bib & E-Cert.
+  * **Jersey Finisher Only (Rp 159.000)**: Finisher Jersey Volt Lime Dryfit + E-Bib & E-Cert.
 
 ### 5.5 Modul Alur 4 Langkah Mudah Ikutan (How It Works)
 1. **Daftar & Pilih Paket**: Lengkapi data diri dan pilih paket race pack.

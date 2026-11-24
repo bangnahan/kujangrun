@@ -150,19 +150,23 @@ Dua kartu opsi lari yang mengakomodasi semua level pelari:
 ---
 
 ### Seksi 5: Paket & Biaya Pendaftaran (Pricing Cards)
-Tiga paket dengan hierarki visual jelas (Paket Terpopuler disorot dengan border emas berkilau):
+4 Paket Utama terintegrasi 1:1 dengan portal registrasi LariVirtual (`https://larivirtual.com/events/kujang-virtual/register`):
 
-| Elemen | Paket Pusaka (Medal Only) | Paket Ksatria (FULL PACK - Rekomendasi) | Paket Digital (Eco-Run) |
-| :--- | :--- | :--- | :--- |
-| **Badge** | Pilihan Praktis | **PALING BANYAK DIPILIH (POPULER)** | Ramah Lingkungan |
-| **Harga Early Bird** | Rp 149.000 | **Rp 200.000** | Rp 49.000 |
-| **Harga Normal** | Rp 189.000 | **Rp 289.000** | Rp 69.000 |
-| **Medali Kujang 3D** | ✅ Ya | ✅ **Ya (Prioritas Cetak)** | ❌ Tidak |
-| **Finisher Jersey** | ❌ Tambahan Opsional | ✅ **Ya (Bebas Pilih Ukuran)** | ❌ Tidak |
-| **E-Bib & E-Sertifikat** | ✅ Ya | ✅ Ya | ✅ Ya |
-| **Exclusive Running Pouch**| ❌ Tidak | ✅ Ya | ❌ Tidak |
-| **Sticker Pack Kujang** | ✅ Ya | ✅ Ya | ❌ Tidak |
-| **CTA Button** | [Pilih Paket Pusaka] | **[Daftar Paket Ksatria] (Emas Glow)** | [Pilih Paket Digital] |
+| Elemen | Medali Only | Jersey event + Medali | Jersey Finisher + Medali | Jersey Event + Finisher + Medali |
+| :--- | :--- | :--- | :--- | :--- |
+| **Badge** | Hemat & Praktis | **PALING POPULER** | Pilihan Favorit | **EDISI KOMPLIT (ULTIMATE)** |
+| **Harga** | Rp 149.000 | **Rp 200.000** | **Rp 200.000** | **Rp 339.000** |
+| **Medali Kujang 3D** | ✅ Ya | ✅ Ya | ✅ Ya | ✅ Ya |
+| **Jersey Event (Royal Blue)** | ❌ Tidak | ✅ Ya (Dryfit) | ❌ Tidak | ✅ Ya (Dryfit) |
+| **Jersey Finisher (Volt Lime)**| ❌ Tidak | ❌ Tidak | ✅ Ya (Dryfit) | ✅ Ya (Dryfit) |
+| **Pouch Serut Eksklusif** | ❌ Tidak | ✅ Ya | ✅ Ya | ✅ Ya |
+| **E-Bib & E-Sertifikat** | ✅ Ya | ✅ Ya | ✅ Ya | ✅ Ya |
+| **Kurir Ekspedisi** | SPX Express | SPX Express | SPX Express | SPX Express |
+| **CTA Button** | [Daftar Sekarang] | **[Daftar Sekarang]** | [Daftar Sekarang] | **[Daftar Sekarang]** |
+
+* **Opsi Tambahan (Jersey Only)**:
+  * **Jersey Event Only**: Rp 150.000 (Termasuk E-BIB, E-Sertifikat, dan Ongkir SPX).
+  * **Jersey Finisher Only**: Rp 159.000 (Termasuk E-BIB, E-Sertifikat, dan Ongkir SPX).
 
 ---
 

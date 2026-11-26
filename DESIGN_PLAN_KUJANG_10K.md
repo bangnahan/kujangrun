@@ -155,7 +155,7 @@ Dua kartu opsi lari yang mengakomodasi semua level pelari:
 | Elemen | Medali Only | Jersey event + Medali | Jersey Finisher + Medali | Jersey Event + Finisher + Medali |
 | :--- | :--- | :--- | :--- | :--- |
 | **Badge** | Hemat & Praktis | **PALING POPULER** | Pilihan Favorit | **EDISI KOMPLIT (ULTIMATE)** |
-| **Harga** | Rp 149.000 | **Rp 200.000** | **Rp 200.000** | **Rp 339.000** |
+| **Harga (Reguler)** | Rp 169.000 | **Rp 220.000** | **Rp 220.000** | **Rp 359.000** |
 | **Medali Kujang 3D** | ✅ Ya | ✅ Ya | ✅ Ya | ✅ Ya |
 | **Jersey Event (Royal Blue)** | ❌ Tidak | ✅ Ya (Dryfit) | ❌ Tidak | ✅ Ya (Dryfit) |
 | **Jersey Finisher (Volt Lime)**| ❌ Tidak | ❌ Tidak | ✅ Ya (Dryfit) | ✅ Ya (Dryfit) |

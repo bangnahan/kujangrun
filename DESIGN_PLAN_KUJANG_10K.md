@@ -155,7 +155,8 @@ Dua kartu opsi lari yang mengakomodasi semua level pelari:
 | Elemen | Medali Only | Jersey event + Medali | Jersey Finisher + Medali | Jersey Event + Finisher + Medali |
 | :--- | :--- | :--- | :--- | :--- |
 | **Badge** | Hemat & Praktis | **PALING POPULER** | Pilihan Favorit | **EDISI KOMPLIT (ULTIMATE)** |
-| **Harga (Reguler)** | Rp 169.000 | **Rp 220.000** | **Rp 220.000** | **Rp 359.000** |
+| **Harga Reguler** | ~~Rp 169.000~~ | ~~Rp 220.000~~ | ~~Rp 220.000~~ | ~~Rp 359.000~~ |
+| **Harga Promo (s/d 5 Des)** | **Rp 149.000** | **Rp 200.000** | **Rp 200.000** | **Rp 339.000** |
 | **Medali Kujang 3D** | ✅ Ya | ✅ Ya | ✅ Ya | ✅ Ya |
 | **Jersey Event (Royal Blue)** | ❌ Tidak | ✅ Ya (Dryfit) | ❌ Tidak | ✅ Ya (Dryfit) |
 | **Jersey Finisher (Volt Lime)**| ❌ Tidak | ❌ Tidak | ✅ Ya (Dryfit) | ✅ Ya (Dryfit) |
@@ -163,9 +164,9 @@ Dua kartu opsi lari yang mengakomodasi semua level pelari:
 | **Kurir Ekspedisi** | SPX Express | SPX Express | SPX Express | SPX Express |
 | **CTA Button** | [Daftar Sekarang] | **[Daftar Sekarang]** | [Daftar Sekarang] | **[Daftar Sekarang]** |
 
-* **Opsi Tambahan (Jersey Only)**:
-  * **Jersey Event Only**: Rp 150.000 (Termasuk E-BIB, E-Sertifikat, dan Ongkir SPX).
-  * **Jersey Finisher Only**: Rp 159.000 (Termasuk E-BIB, E-Sertifikat, dan Ongkir SPX).
+* **Opsi Tambahan (Jersey Only - Promo s/d 5 Des)**:
+  * **Jersey Event Only**: **Rp 130.000** (~~Rp 150.000~~) (Termasuk E-BIB, E-Sertifikat, dan Ongkir SPX).
+  * **Jersey Finisher Only**: **Rp 139.000** (~~Rp 159.000~~) (Termasuk E-BIB, E-Sertifikat, dan Ongkir SPX).
 
 ---
 

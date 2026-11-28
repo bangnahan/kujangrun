@@ -90,14 +90,14 @@ Simbol utama acara ini adalah **Kujang**, senjata tradisional khas Sunda yang me
   * Personalized E-Bib & E-Certificate (dengan nama dan waktu tempuh).
 
 ### 5.4 Modul Paket Pendaftaran & Pricing Tier
-Tabel dan kartu paket yang sesuai 1:1 dengan sistem pendaftaran LariVirtual (`https://larivirtual.com/events/kujang-virtual/register`) pada periode Reguler (27 November – 16 Desember 2026):
-* **Medali Only (Rp 169.000)**: Medali Zinc Alloy 3D Twin Kujang & Gedung Sate + E-Bib + E-Sertifikat + Pengiriman via SPX.
-* **Jersey event + Medali (Rp 220.000)**: Jersey Event Royal Blue Pop-Art Sunda + Medali 3D Twin Kujang + E-Bib + E-Cert + Pengiriman via SPX.
-* **Jersey Finisher + Medali (Rp 220.000)**: Finisher Jersey Volt Lime to Emerald + Medali 3D Twin Kujang + E-Bib + E-Cert + Pengiriman via SPX.
-* **Jersey Event + Finisher + Medali (Rp 359.000)**: Paket Lengkap 2 Jerseys (Event + Finisher) + Medali 3D Twin Kujang + E-Bib + E-Cert + Pengiriman via SPX.
+Tabel dan kartu paket yang sesuai 1:1 dengan sistem pendaftaran LariVirtual (`https://larivirtual.com/events/kujang-virtual/register`) pada periode Promo Terbatas s/d 5 Desember 2026 (Potongan Rp 20.000 tiap kategori dari tarif reguler):
+* **Medali Only (Rp 149.000 ~~Rp 169.000~~)**: Medali Zinc Alloy 3D Twin Kujang & Gedung Sate + E-Bib + E-Sertifikat + Pengiriman via SPX.
+* **Jersey event + Medali (Rp 200.000 ~~Rp 220.000~~)**: Jersey Event Royal Blue Pop-Art Sunda + Medali 3D Twin Kujang + E-Bib + E-Cert + Pengiriman via SPX.
+* **Jersey Finisher + Medali (Rp 200.000 ~~Rp 220.000~~)**: Finisher Jersey Volt Lime to Emerald + Medali 3D Twin Kujang + E-Bib + E-Cert + Pengiriman via SPX.
+* **Jersey Event + Finisher + Medali (Rp 339.000 ~~Rp 359.000~~)**: Paket Lengkap 2 Jerseys (Event + Finisher) + Medali 3D Twin Kujang + E-Bib + E-Cert + Pengiriman via SPX.
 * **Opsi Add-on Jersey Only**:
-  * **Jersey Event Only (Rp 150.000)**: Jersey Event Royal Blue Dryfit + E-Bib & E-Cert.
-  * **Jersey Finisher Only (Rp 159.000)**: Finisher Jersey Volt Lime Dryfit + E-Bib & E-Cert.
+  * **Jersey Event Only (Rp 130.000 ~~Rp 150.000~~)**: Jersey Event Royal Blue Dryfit + E-Bib & E-Cert.
+  * **Jersey Finisher Only (Rp 139.000 ~~Rp 159.000~~)**: Finisher Jersey Volt Lime Dryfit + E-Bib & E-Cert.
 
 ### 5.5 Modul Alur 4 Langkah Mudah Ikutan (How It Works)
 1. **Daftar & Pilih Paket**: Lengkapi data diri dan pilih paket race pack.
